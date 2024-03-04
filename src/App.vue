@@ -1,14 +1,20 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderPage/>
+  <HeroSection/>
+  <AboutMe/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderPage from './components/HeaderPage.vue';
+import HeroSection from './components/HeroSection.vue'
+import AboutMe from './components/AboutMe.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderPage,
+    HeroSection,
+    AboutMe
   }
 }
 </script>
